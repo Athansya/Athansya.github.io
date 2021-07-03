@@ -5,6 +5,7 @@ date: 2021-07-02T11:30:03+00:00
 # aliases: ["/first"]
 author: "@atorizv"
 # author: ["Me", "You"] # multiple authors
+env: production
 showToc: false
 TocOpen: false
 draft: false
