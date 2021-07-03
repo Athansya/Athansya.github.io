@@ -29,7 +29,7 @@ languages:
         menu:
             main:
                 - name: About me
-                  url: about
+                  url: about/
                   weight: 3
                 - name: Archive
                   url: archives
@@ -55,7 +55,7 @@ languages:
         menu:
             main:
                 - name: Acerca de mi
-                  url: about
+                  url: about/
                   weight: 3
                 - name: Archivo
                   url: archives
