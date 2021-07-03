@@ -1,0 +1,202 @@
+baseURL: "https://adityatelange.github.io/hugo-PaperMod/"
+title: "@atorizv"
+paginate: 5
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+# googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    # minifyOutput: true
+
+languages:
+    en:
+        languageName: ":us:"
+        languageAltTitle: Click to change language
+        weight: 1
+        homeInfoParams:
+          Title: "Hi!"
+          Content: >
+            <div style="text-align: justify"> <font size="5"> 
+            I am a mexican biomedical engineering student interested in programming applications oriented to the medical field, mainly imaging related solutions. I decided to create this website to learn and practice new skills, as well as sharing my knowledge with others. Oh! before I forget, you can change the language by clicking the Mexican flag. Without further ado, enjoy your time here and don't hesitate to share your ideas/feedback. 
+            </font> </div>
+        menu:
+            main:
+                - name: About me
+                  url: about
+                  weight: 3
+                - name: Archive
+                  url: archives
+                  weight: 5
+                - name: Tags
+                  url: tags/
+                  weight: 6
+                - name: Search
+                  url: search/
+                  weight: 7
+
+
+    es:
+        languageName: "🇲🇽"
+        languageAltTitle: Haz click para cambiar el idioma
+        weight: 2
+        homeInfoParams:
+          Title: "¡Hola!"
+          Content: >
+            <div style="text-align: justify"> <font size="5"> 
+            Soy un estudiante mexicano de ingeniería biomédica interesado en la programación orientada al sector médico, principalmente soluciones relacionadas a la imagenología. Decidí crear este sitio para aprender y practicar nuevas habilidades, además de compartir mi conocimiento con otros. Oh, antes de que lo olvide, puedes cambiar el idioma del sitio al hacer click en la bandera de Estados Unidos. Sin más que añadir, disfruta tu tiempo aquí y no dudes en compartir tus ideas/retroalimentación.
+            </font> </div>
+        menu:
+            main:
+                - name: Acerca de mi
+                  url: about
+                  weight: 3
+                - name: Archivo
+                  url: archives
+                  weight: 5
+                - name: Etiquetas
+                  url: tags/
+                  weight: 6
+                - name: Buscar
+                  url: search/
+                  weight: 7
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+    author: Theme PaperMod
+    # author: ["Me", "You"] # multiple authors
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    # disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+    comments: false
+    images: ["papermod-cover.png"]
+
+    profileMode:
+        enabled: false
+        title: "@atorizv"
+        imageUrl: "#"
+        imageTitle: my image
+        # imageWidth: 120
+        # imageHeight: 120
+        buttons:
+            - name: Archives
+              url: archives
+            - name: Tags
+              url: tags
+
+    #homeInfoParams:
+    #    Title: "Hola!"
+    #    Content: >
+    #        <div style="text-align: justify"> 
+    #        I am a biomedical engineering student interested in programming applications oriented to the medical field, mainly imaging related solutions. I decided to create this website to learn and practice new concepts, as well as sharing my knowledge with others. Without further ado, enjoy your time here and don't hesitate to share your ideas/feedback. 
+    #        </div>
+    socialIcons:
+        - name: github
+          url: "https://github.com/Athansya"
+        - name: twitter
+          url: "https://twitter.com/Atoriz_V"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/alfonso-toriz-v/"
+        #- name: KoFi
+        #  url: "https://ko-fi.com/adityatelange"
+        #- name: RsS
+        #  url: "index.xml"
+
+    editPost:
+        URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+        Text: "Suggest Changes" # edit text
+        appendFilePath: true # to append file path to Edit link
+
+    # label:
+    #     text: "Home"
+    #     icon: icon.png
+    #     iconHeight: 35
+
+    # analytics:
+    #     google:
+    #         SiteVerificationTag: "XYZabc"
+
+    # assets:
+    #     favicon: "<link / abs url>"
+    #     favicon16x16: "<link / abs url>"
+    #     favicon32x32: "<link / abs url>"
+    #     apple_touch_icon: "<link / abs url>"
+    #     safari_pinned_tab: "<link / abs url>"
+
+    # cover:
+    #     hidden: true # hide everywhere but not in structured data
+    #     hiddenInList: true # hide on list pages and home
+    #     hiddenInSingle: true # hide on single page
+
+    # fuseOpts:
+    #     isCaseSensitive: false
+    #     shouldSort: true
+    #     location: 0
+    #     distance: 1000
+    #     threshold: 0.4
+    #     minMatchCharLength: 0
+    #     keys: ["title", "permalink", "summary", "content"]
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         # noClasses: false
+#         style: monokai
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
+
+disqusShortname: atorizv
