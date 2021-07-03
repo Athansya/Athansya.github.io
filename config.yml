@@ -119,8 +119,8 @@ params:
           url: "https://twitter.com/Atoriz_V"
         - name: linkedin
           url: "https://www.linkedin.com/in/alfonso-toriz-v/"
-        #- name: KoFi
-        #  url: "https://ko-fi.com/adityatelange"
+        - name: KoFi
+          url: "https://ko-fi.com/atorizv"
         #- name: RsS
         #  url: "index.xml"
 
