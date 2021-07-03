@@ -13,7 +13,7 @@ enableEmoji: true
 # googleAnalytics: UA-123-45
 
 minify:
-    disableXML: true
+    disableXML: false
     # minifyOutput: true
 
 languages:
