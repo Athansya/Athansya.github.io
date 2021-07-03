@@ -1,5 +1,6 @@
 baseURL: "https://atorizv-athansya.vercel.app/"
 title: "@atorizv"
+description: "Educational Blog"
 paginate: 5
 theme: PaperMod
 
