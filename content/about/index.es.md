@@ -8,7 +8,7 @@ author: "@atorizv"
 showToc: false
 TocOpen: false
 draft: false
-hidemeta: false
+hidemeta: true
 comments: false
 description: "Un poco acerca de mi."
 ---
