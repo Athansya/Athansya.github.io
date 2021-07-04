@@ -34,7 +34,7 @@ cover:
 ---
 <div style="text-align: justify"> 
 
-Siempre pensé que aprender a programar en C sería una experiencia complicada y tediosa en comparación a los lenguages de alto nivel (e.g. Python o Matlab) con los que estaba familiarizado. Por lo tanto, hice lo que cualquier estudiante en mi situación haría: procrastinar hasta el último momento posible. Quién hubiera pensado que, para prepararme para mis futuras prácticas profesionales, mi supervisora me pidió aprender C de antemano.
+Siempre pensé que aprender a programar en C sería una experiencia complicada y tediosa en comparación a los lenguages de alto nivel (e.g. Python o Matlab) con los que estaba familiarizado. Por lo tanto, hice lo que cualquier estudiante en mi situación haría: procrastinar hasta el último momento posible. Quién hubiera pensado que, para prepararme para mis futuras prácticas profesionales, mi supervisora me pediría aprender C de antemano.
 
 Así fue que esta serie de Aprender a programar en C nació, principalmente para ayudar a estudiar y practicar nuevos conceptos. Trataré de apegarme lo más posible al [principio KISS](https://en.wikipedia.org/wiki/KISS_principle) y mantendré cada nueva entrada lo más breve y concisa posible. La mayor del material estará basado en el libro de Zed Shaw titulado Aprender a Programar C de la Manera Difícil, aunque añadiré más referencias si es necesario.
 

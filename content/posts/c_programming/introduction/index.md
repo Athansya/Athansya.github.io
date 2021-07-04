@@ -34,7 +34,7 @@ cover:
 ---
 <div style="text-align: justify"> 
 
-I always thought that learning to code in C would be a difficult and rather tedious experience compared to the high-level languages (e.g Python or Matlab) I was familiar with. Hence, I did what every student in my situation would do: procrastinate until the very last moment. Who would have though that, in order to prepare myself for my future internship position, my supervisor asked me to learn C beforehand...
+I always thought that learning to code in C would be a difficult and rather tedious experience compared to the high-level languages (e.g Python or Matlab) I was familiar with. Hence, I did what every student in my situation would do: procrastinate until the very last moment. Who would have though that, in order to prepare myself for my future internship position, my supervisor would asked me to learn C beforehand...
 
 Thus, this Learning C programming series was born, to help me study and practice new concepts. I'll try to follow the [KISS principle](https://en.wikipedia.org/wiki/KISS_principle) and keep each new entry as brief and concise as possible. Most of the material will be based on Zed Shaw's Learning C Programming the Hard Way, although I'll be adding more references if needed.
 
