@@ -4,6 +4,7 @@ date: 2021-07-03
 # weight: 1
 # aliases: ["/first"]
 tags: ["c", "programming"]
+series: ["Learn C Programming"]
 author: "@atorizv"
 # author: ["Me", "You"] # multiple authors
 showToc: false

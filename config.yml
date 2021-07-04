@@ -32,11 +32,14 @@ languages:
                 - name: About me
                   url: about/
                   weight: 3
+                - name: Series
+                  url : series
+                  weight: 4
+                - name: Tags
+                  url: tags
+                  weight: 5
                 - name: Archive
                   url: archives
-                  weight: 5
-                - name: Tags
-                  url: tags/
                   weight: 6
                 - name: Search
                   url: search
@@ -58,11 +61,14 @@ languages:
                 - name: Acerca de mi
                   url: about/
                   weight: 3
+                - name: Series
+                  url : series
+                  weight: 4
+                - name: Etiquetas
+                  url: tags
+                  weight: 5
                 - name: Archivo
                   url: archives
-                  weight: 5
-                - name: Etiquetas
-                  url: tags/
                   weight: 6
                 - name: Buscar
                   url: search

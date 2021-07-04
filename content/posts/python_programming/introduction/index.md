@@ -1,9 +1,10 @@
 ---
 title: "Python Programming -> Introduction"
-date: 2020-09-15
+date: 2021-07-04
 # weight: 1
 # aliases: ["/first"]
 tags: ["python", "programming"]
+series: ["Learn Python Programming"]
 author: "@atorizv"
 # author: ["Me", "You"] # multiple authors
 showToc: true

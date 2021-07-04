@@ -1,9 +1,10 @@
 ---
 title: "Programación en Python -> Introducción"
-date: 2020-09-15T11:30:03+00:00
+date: 2021-07-04
 # weight: 1
 # aliases: ["/first"]
-tags: ["python", "programming"]
+tags: ["python", "programación"]
+series: ["Aprender a Programar en Python"]
 author: "@atorizv"
 # author: ["Me", "You"] # multiple authors
 showToc: true
