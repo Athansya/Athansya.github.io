@@ -39,7 +39,7 @@ languages:
                   url: tags/
                   weight: 6
                 - name: Search
-                  url: search/
+                  url: search
                   weight: 7
 
 
@@ -65,7 +65,7 @@ languages:
                   url: tags/
                   weight: 6
                 - name: Buscar
-                  url: search/
+                  url: search
                   weight: 7
 
 outputs:
@@ -112,6 +112,7 @@ params:
     #        <div style="text-align: justify"> 
     #        I am a biomedical engineering student interested in programming applications oriented to the medical field, mainly imaging related solutions. I decided to create this website to learn and practice new concepts, as well as sharing my knowledge with others. Without further ado, enjoy your time here and don't hesitate to share your ideas/feedback. 
     #        </div>
+
     socialIcons:
         - name: github
           url: "https://github.com/Athansya"
