@@ -19,7 +19,7 @@ disableHLJS: false
 hideSummary: false
 #searchHidden: false
 ShowReadingTime: true
-ShowBreadCrumbs: true
+ShowBreadCrumbs: false
 ShowPostNavLinks: true
 #cover:
 #    image: "C.jpg" # image path/url

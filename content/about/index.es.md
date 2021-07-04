@@ -11,7 +11,6 @@ draft: false
 hidemeta: false
 comments: false
 description: "Un poco acerca de mi."
----
 
 ### Hola de nuevo,
 <div style="text-align: justify"> 
