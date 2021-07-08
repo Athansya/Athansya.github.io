@@ -155,8 +155,9 @@ params:
     #    apple_touch_icon: "/apple-touch-icon.png"
     #    safari_pinned_tab: "/safari-pinned-tab.svg"
 
-    # cover:
-    #     hidden: true # hide everywhere but not in structured data
+    #cover:
+    #      image: "./featured.jpg" # image path/url
+    #      hidden: true # hide everywhere but not in structured data
     #     hiddenInList: true # hide on list pages and home
     #     hiddenInSingle: true # hide on single page
 
