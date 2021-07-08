@@ -97,7 +97,7 @@ params:
     ShowCodeCopyButtons: true
     ShowToc: true
     comments: false
-    images: "./featured.jpg"
+    images: featured.jpg
 
     profileMode:
         enabled: false
