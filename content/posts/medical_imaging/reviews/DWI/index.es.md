@@ -41,7 +41,7 @@ En 1827, el botánico Robert Brown estaba observando con su microscopio una mues
 
 ## El fenómeno de la difusión
 
-Para seguir hay que definir el concepto de difusión:
+Antes de seguir, hay que definir el concepto de difusión:
 “Es un fenómeno físico que describe el movimiento aleatorio de moléculas o partículas de regiones de mayor a menor concentración en un medio sin ayuda externa”
 
 
