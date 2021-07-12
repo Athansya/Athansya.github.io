@@ -69,7 +69,7 @@ Al introducir un nuevo gradiente, se altera la velocidad de espín de los proton
 ## Coeficiente de difusión aparente (ADC)
 Muchas veces, la señal obtenida con DWI no es perfecta y puede que sea intensa aun cuando $b = 0$ o $b > 0$ . Esto se debe a que la secuencia de pulsos utilizada es muy similar a la de señales obtenidas con tiempos de eco y repetición largos (T2). Este problema se conoce como efecto T2 o T2 shine-through y la solución es calcular el coeficiente de difusión aparente para cada voxel de la imagen utilizando la siguiente fórmula:
 
-$$ ADC = - \frac{ln\frac{S_{b_2}}{S_{b_1}}}{(b_2-b_1) = - \frac{ln\frac{S_b}{S_0}}{b}} $$
+$$ ADC = - \frac{ln\frac{S_{b_2}}{S_{b_1}}}{(b_2-b_1) = } - \frac{ln\frac{S_b}{S_0}}{b}$$
 
 Donde, $S_{b_1}$ y $S_{b_2}$ son las intensidades de la señal obtenida con dos valores diferentes de $b$ , considerando que $b_1 < b_2$ . Los valores de $b_1$ y $b_2$ mas utilizados son $0$ y $1000\ s/mm^2$ , respectivamente. Contrario a DWI, el ADC refleja las zonas de difusión isotrópica en tonos blancos y anisotrópica en tonos grises (Figura 4).
 
