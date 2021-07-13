@@ -1,5 +1,5 @@
 ---
-title: "Magnetic Resonance Diffusion"
+title: "Diffusion Magnetic Resonance"
 date: 2021-07-12
 # weight: 1
 # aliases: ["/first"]
