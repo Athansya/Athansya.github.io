@@ -107,7 +107,7 @@ Si te quedaste con dudas, te recomiendo checar los videos al final de las refere
 
 ## Referencias
 
-### Artículos y revistas
+### Artículos y libros
 [1] Nelson, E. (1967). Dynamical Theories of Brownian Motion. In Dynamical Theories of Brownian Motion (2nd). Princeton University Press
 
 [2] Sharma, S., & Vishwamittar. (2005). Brownian motion problem: Random walk and beyond. Resonance, 10(8), 49–66.
