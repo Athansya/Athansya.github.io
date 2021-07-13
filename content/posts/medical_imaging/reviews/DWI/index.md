@@ -1,10 +1,10 @@
 ---
-title: "Difusión por Resonancia Magnética"
+title: "Magnetic Resonance Diffusion"
 date: 2021-07-12
 # weight: 1
 # aliases: ["/first"]
-tags: ["DWI", "imagenología"]
-series: ["Técnicas de imagen"]
+tags: ["DWI", "Medical Imaging"]
+series: ["Imaging"]
 author: "@atorizv"
 # author: ["Me", "You"] # multiple authors
 showToc: true
