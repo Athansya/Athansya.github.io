@@ -100,11 +100,9 @@ To finish, I would like to remind you that resonance magnetic diffusion and appa
 
 3.	Apparent diffusion coefficient (ADC) allows to measure and quantify the diffusion of water in tissue, as well as confirm DWI results.
 
-4.	It is a technique highle sensitive to movement related artifacts.
+4.	It is highly sensitive to movement related artifacts.
 
 {{< notice tip >}}
-
-If you 
 
 If you still have doubts, I recommend you to check the videos at the end of the references or, in any case, write a comment below 😎.
 
