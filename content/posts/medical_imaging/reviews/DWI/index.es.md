@@ -106,7 +106,6 @@ Si te quedaste con dudas, te recomiendo checar los videos al final de las refere
 {{< /notice >}}
 
 ## Referencias
-Estas fueron mis referencias. No tienen orden en específico, sólo las dividí por tipo de material. 
 
 ### Artículos y revistas
 [1] Nelson, E. (1967). Dynamical Theories of Brownian Motion. In Dynamical Theories of Brownian Motion (2nd). Princeton University Press
