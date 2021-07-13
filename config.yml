@@ -2,7 +2,7 @@ baseURL: "https://www.atorizv.tech"
 title: "@atorizv"
 description: "Educational Blog"
 paginate: 5
-theme: PaperMod
+theme: ["hugo-notice", "PaperMod"]
 
 enableInlineShortcodes: true
 enableRobotsTXT: true

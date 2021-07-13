@@ -42,10 +42,14 @@ En 1827, el botánico Robert Brown estaba observando con su microscopio una mues
 ## El fenómeno de la difusión
 
 Antes de seguir, hay que definir el concepto de difusión:
-“Es un fenómeno físico que describe el movimiento aleatorio de moléculas o partículas de regiones de mayor a menor concentración en un medio sin ayuda externa”
 
+>“Es un fenómeno físico que describe el movimiento aleatorio de moléculas o partículas de regiones de mayor a menor concentración en un medio sin ayuda externa”
 
-!!! No entraré en mucho detalle al modelo matemático e historia de la difusión. Si tienes curiosidad te recomiendo leer el artículo de Shama & Vishwamittar (2005), [Brownian Motion Problem: Random Walk and Beyond](https://www.fisica.unam.mx/personales/gramirez/Biophysics_cell_signal_transduccion/Random_Walk_and_Beyond.pdf)  o algunos capítulos del libro de Edward Nelson, [Dynamical Theories of Brownian Motion](https://web.math.princeton.edu/~nelson/books/bmotion.pdf) .
+{{< notice note >}}
+
+No entraré en mucho detalle al modelo matemático e historia de la difusión. Si tienes curiosidad te recomiendo leer el artículo de Shama & Vishwamittar (2005), [Brownian Motion Problem: Random Walk and Beyond](https://www.fisica.unam.mx/personales/gramirez/Biophysics_cell_signal_transduccion/Random_Walk_and_Beyond.pdf)  o algunos capítulos del libro de Edward Nelson, [Dynamical Theories of Brownian Motion](https://web.math.princeton.edu/~nelson/books/bmotion.pdf) .
+
+{{< /notice >}}
 
 Podemos observar la difusión cuando dejamos caer una gota de colorante en un vaso con agua. Al inicio, el colorante se concentrará en una sola región y lentamente se irá difundiendo a lo largo del agua sin necesidad de moverlo con ayuda de una cuchara (Figura 1).
 
@@ -95,8 +99,15 @@ Para cerrar, quiero recordarles que la difusión por resonancia magnética y el 
 
 4.	Es una técnica muy sensible a artefactos relacionados al movimiento.
 
+{{< notice tip >}}
+
+Si te quedaste con dudas, te recomiendo checar los videos al final de las referencias o, en todo caso, escribe un comentario en la parte de abajo 😎.
+
+{{< /notice >}}
+
 ## Referencias
-Estas fueron mis referencias. No tienen orden en específico, sólo las dividí por tipo de material. Si aún no te quedó claro del todo el tema, te recomiendo ver los videos del final.
+Estas fueron mis referencias. No tienen orden en específico, sólo las dividí por tipo de material. 
+
 ### Artículos y revistas
 [1] Nelson, E. (1967). Dynamical Theories of Brownian Motion. In Dynamical Theories of Brownian Motion (2nd). Princeton University Press
 
