@@ -1,5 +1,5 @@
 ---
-title: "Learn C Programming -> Introduction"
+title: "[I] Learn C Programming"
 date: 2021-07-03
 # weight: 1
 # aliases: ["/first"]
