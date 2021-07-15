@@ -9,7 +9,7 @@ author: "@atorizv"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: true
 description: ""
@@ -52,9 +52,9 @@ Si recuerdas bien, lo único que hace el código al ejecutarlo es imprimir la fr
 
 
 ### ¿Cómo funciona?
-La línea 1, ` #include <stdio.h>`, es una línea que verás en todos lo programas de C y se divide en dos partes fundamentales. La primera, `#include`, permite importar los contenidos de un archivo al nuestro; mientras que la segunda, `<>`, dentro se escribirá el nombre del archivo que queramos importar, en este caso `stdio.h`. La  extensión `.h` se utiliza para archivos tipo *header* o encabezado y contienen una lista de funciones.
+La línea 1, ` #include <stdio.h>`, es una línea que verás en todos lo programas de C y se divide en dos partes fundamentales. La primera, `#include`, permite importar los contenidos de un archivo al nuestro; mientras que la segunda, `<>`, contendrá el nombre del archivo que queramos importar, en este caso `stdio.h`. La  extensión `.h` se utiliza para archivos tipo *header* o encabezado que contienen una lista de funciones.
 
-La línea 3, `int main()`, es la declaración de nuestra función principal, dentro, entre corchetes `{ }`, irá la lista de instrucciones que se ejecutarán cada vez que corramos el código. Siempre verás esta función en todos los códigos de C. Su sintaxis es la siguiente:
+La línea 3, `int main()`, es la declaración de nuestra función principal. Dentro, entre corchetes `{ }`, irá la lista de instrucciones que se ejecutarán cada vez que corramos el código. Siempre verás esta función en todos los códigos de C. Su sintaxis es la siguiente:
 
 ```c
 int main(){
@@ -88,7 +88,7 @@ La línea 5 y 6 son instrucciones dentro de main. La línea 5, `printf`, es una 
 
 {{< notice tip >}}
 
-Cada vez que tengas acerca de alguna función, prueba a escribir el siguiente comando en la terminal:
+Cada vez que tengas dudas acerca de alguna función, prueba a escribir el siguiente comando en la terminal:
 
 ``` shell
 $ man nombre_de_la_función
@@ -102,7 +102,18 @@ Por último, la línea 6, `return 0`, es una instrucción que le indica al siste
 Algo que no mencioné y probablemente notaste es que la línea 5 y 6 termina con `;`. Esta es la forma de C de terminar la declaración de una instrucción. Olvidarlos es un error muy común, así que no desesperes y verifica que los hayas puesto; con el tiempo y la práctica lo harás sin pensarlo.
 
 ### Trabajo propio
-De ahora en adelante, tal como en el libro de Zed Shaw, cada sesión contará con un partado de trabajo propio dónde te dejaré algunas instrucciones que podrás realizar por tu cuenta para ayudar a mejorar tu comprensión del tema y generar curiosidad.
+De ahora en adelante, tal como en el libro de Zed Shaw, cada sesión contará con un apartado llamado **trabajo propio**, dónde te dejaré algunas instrucciones que podrás realizar por tu cuenta para mejorar tu comprensión del tema y generar curiosidad. Las instrucciones de la semana son las siguientes:
+
+- Intenta borrar alguna parte del código y luego compílalo de la misma forma que la vez pasada: `$ gcc hello_world.c  -o hello_world && ./hello_world`. Seguramente saldrá un error, intenta leerlo y comprender lo que dice. Recuerda que Google es tu amigo 😉. Repítelo con diferentes partes: borra un `;` o `{}`, da rienda suelta a tu creatividad.
+
+- Reemplaza el argumento de `printf` con alguna frase. Recuerda que debe ir entre comillas.
+
+- Lee la documentación de la función `printf` con `$ man printf`. Nuevamente, no te preocupes si no la entiendes del todo. Sólo es para crear el hábito de buscar en la documentación. Luego te explicaré mas a fondo lo que puedes hacer con `printf`.
+
+- Por último, apártate de la pantalla un rato y, si puedes, muévete de habitación e intenta recordar lo que aprendiste hoy. Puede que suena raro, pero funciona bastante bien para reforzar tus conocimientos. Puntos extras si intentas recordarlo otro día; el punto es no dejar de practicar.
+
+## Próxima sesión
+En la siguente sesión, hablaremos acerca de dos cosas que te harán la vida mas fácil a la hora de programar: los archivos MAKEFILE y el depurador (debugger) GDB. ¡Hasta la próxima!
 
 
 </div>
