@@ -101,7 +101,7 @@ Por último, la línea 6, `return 0`, es una instrucción que le indica al siste
 
 Algo que no mencioné y probablemente notaste es que la línea 5 y 6 termina con `;`. Esta es la forma de C de terminar la declaración de una instrucción. Olvidarlos es un error muy común, así que no desesperes y verifica que los hayas puesto; con el tiempo y la práctica lo harás sin pensarlo.
 
-### Trabajo propio
+## Trabajo propio
 De ahora en adelante, tal como en el libro de Zed Shaw, cada sesión contará con un apartado llamado **trabajo propio**, dónde te dejaré algunas instrucciones que podrás realizar por tu cuenta para mejorar tu comprensión del tema y generar curiosidad. Las instrucciones de la semana son las siguientes:
 
 - Intenta borrar alguna parte del código y luego compílalo de la misma forma que la vez pasada: `$ gcc hello_world.c  -o hello_world && ./hello_world`. Seguramente saldrá un error, intenta leerlo y comprender lo que dice. Recuerda que Google es tu amigo 😉. Repítelo con diferentes partes: borra un `;` o `{}`, da rienda suelta a tu creatividad.
