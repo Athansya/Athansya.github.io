@@ -11,6 +11,7 @@ showToc: true
 TocOpen: false
 draft: false
 hidemeta: false
+draft: true
 comments: true
 description: ""
 canonicalURL: "https://canonical.url/to/page"
