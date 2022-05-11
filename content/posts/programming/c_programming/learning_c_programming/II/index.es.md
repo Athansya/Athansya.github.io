@@ -38,7 +38,7 @@ ShowPostNavLinks: true
 <div style="text-align: justify"> 
 
 ## Tu primer código 
-La vez [pasada]({{< ref "/posts/c_programming/I/index.md" >}} "[I] Programación en C"), aprendimos cómo instalar C en diferentes sistemas operativos. Luego, escribimos, compilamos y ejecutamos tu primer código. Hoy revisaremos línea por línea ese código y te platicaré acerca de algunos conceptos importantes.
+La vez [pasada]({{< ref "/posts/programming/c_programming/learning_c_programming/I/index.md" >}} "[I] Programación en C"), aprendimos cómo instalar C en diferentes sistemas operativos. Luego, escribimos, compilamos y ejecutamos tu primer código. Hoy revisaremos línea por línea ese código y te platicaré acerca de algunos conceptos importantes.
 
 ```c {linenos=table,linenostart=1}
 #include <stdio.h>

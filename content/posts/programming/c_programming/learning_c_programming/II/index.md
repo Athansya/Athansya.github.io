@@ -37,10 +37,7 @@ ShowPostNavLinks: true
 <div style="text-align: justify"> 
 
 ## Your first code
-Last [time]({{< ref "/posts/c_programming/I/index.md" >}} "[I] Learn C Programming"), we learn how to setup C in different operating systems. Then, we wrote, compiled and ran your first code. Today, we'll review it line by line and I'll explain you some key concepts.
-
-```c {linenos=table,linenostart=1}
-#include <stdio.h>
+Last [time]({{< ref "/posts/programming/c_programming/learning_c_programming/I/index.md" >}} "[I] Learn C Programming"), we learn how to setup C in different operating systems. Then, we wrote, compiled and ran your first code. Today, we'll review it line by line and I'll explain you some key concepts.  ```c {linenos=table,linenostart=1} #include <stdio.h>
 
 int main() 
 {
