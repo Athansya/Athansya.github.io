@@ -15,7 +15,6 @@ draft: true
 comments: true
 description: ""
 canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
 hideSummary: false
@@ -45,7 +44,7 @@ Thus, this Learning C programming series was born, to help me study and practice
 ### Linux
 You just need to type the following commands in your terminal:
 
-**Ubuntu**️
+**Ubuntu**
 ```shell
 $ sudo apt-get install build-essential
 ```
@@ -79,7 +78,8 @@ $ gcc --version
 
 ## Your first code
 As usual when learning a new programming language, the first code we'll look at will print on screen: **"Hello, world"**. Don't worry if you don´t understand the syntax, it is just an example for you to observe how does C code looks like.
-```c {linenos=table,hl_lines=[1],linenostart=1}
+
+```c {linenos=inline}
 #include <stdio.h>
 
 int main() 

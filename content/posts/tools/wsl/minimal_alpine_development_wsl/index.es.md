@@ -10,16 +10,14 @@ hidemeta: false
 comments: true
 description: ""
 canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
 disableShare: false
-disableHLJS: false
+disableHLJS: true
 hideSummary: false
 #searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: false
 ShowPostNavLinks: true
 ---
-
 <div style="text-align: justify"> 
 
 # Introducción -
@@ -32,7 +30,6 @@ Primero que nada, hay que habilitar e instalar **Windows Subsystem for Linux** (
 ```powershell 
 wsl --install
 ```
-
 
 {{< notice note >}}
 Ojo, si no te lo permite, lo más seguro es que no tengas habilitada la opción. Para hacerlo ejecuta primero:
@@ -210,5 +207,4 @@ Aún no es posible realizar cambiar de generación en home-manager con un simple
 - A. Pearce, **"Managing dotfiles with Nix"** 27-Jul-2021. [Online]. Available: <https://alexpearce.me/2021/07/managing-dotfiles-with-nix/>.
 
 </div>
-<!---{{% include file="content/posts/tools/wsl/minimal_alpine_development_wsl/home.nix" language="nix" %}}
 

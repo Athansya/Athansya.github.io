@@ -10,6 +10,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 enableEmoji: true
+
 # googleAnalytics: UA-123-45
 
 minify:
@@ -25,7 +26,7 @@ languages:
           Title: "Hi!"
           Content: >
             <div style="text-align: justify"> <font size="5"> 
-            I am a mexican biomedical engineer interested in science, mathematics and programming. I created this website to learn and practice new skills, take notes and share my knowledge with others. Hopefully, you will find something useful. Oh! before I forget, you can change the language by clicking the Mexican flag.  Without further ado, enjoy your time here and don't hesitate to share your ideas/feedback. 
+            I am an engineer with a wide range of interests. I created this website to learn and practice new skills, take notes and share my knowledge with others. Hopefully, you will find something useful. Oh! before I forget, you can change the language by clicking the Mexican flag.  Without further ado, enjoy your time here and don't hesitate to share your ideas/feedback. 
             </font> </div>
         menu:
             main:
@@ -54,7 +55,7 @@ languages:
           Title: "¡Hola!"
           Content: >
             <div style="text-align: justify"> <font size="5"> 
-            Soy un ingeniero biomédico mexicano interesado en las ciencia, matemáticas y programación. Creé este sitio para aprender y practicar nuevas habilidades, tomar notas y compartir mi conocimiento con otros. Espero que puedas encontrar algo útil. Oh, antes de que lo olvide, puedes cambiar el idioma del sitio al hacer click en la bandera de Estados Unidos. Sin más que añadir, disfruta tu tiempo aquí y no dudes en compartir tus ideas y/o retroalimentación.
+            Soy un ingeniero con diversos intereses. Creé este sitio para aprender y practicar nuevas habilidades, tomar notas y compartir mi conocimiento con otros. Espero que puedas encontrar algo útil. Antes de que lo olvide, puedes cambiar el idioma del sitio al hacer click en la bandera de Estados Unidos. Sin más que añadir, disfruta tu tiempo aquí y no dudes en compartir tus ideas y/o retroalimentación.
             </font> </div>
         menu:
             main:
@@ -97,6 +98,7 @@ params:
     ShowCodeCopyButtons: true
     ShowToc: true
     comments: false
+    disableHLJS: true
     images: ["feature.png"]
 
     profileMode:
@@ -176,23 +178,15 @@ taxonomies:
     series: series
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    #highlight:
-    #    anchorLineNos: false
-    #    codeFences: true
-    #    guessSyntax: false
-        #hl_Lines: ""
-        #lineAnchors: ""
-    #    lineNoStart: 1
-    #    lineNos: false
-    #    lineNumbersInTable: true
-        #noClasses: true
-        #style: dracula
-    #    tabWidth: 4
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    style: dracula
 
-
+    
 privacy:
     vimeo:
         disabled: false

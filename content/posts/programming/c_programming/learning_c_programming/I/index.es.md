@@ -13,27 +13,15 @@ draft: false
 hidemeta: false
 draft: true
 comments: true
-description: ""
 canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
 disableShare: false
-disableHLJS: false
+disableHLJS: true
 hideSummary: false
 #searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: false
 ShowPostNavLinks: true
 
-#cover:
-#    image: "C.jpg" # image path/url
-    #alt: "<alt text>" # alt text
-    #caption: "<text>" # display caption under cover
-#    relative: false # when using page bundles set this to true
-#    hidden: true # only hide on current single page
-#editPost:
-#    URL: "https://github.com/<path_to_repo>/content"
-#    Text: "Suggest Changes" # edit text
-#    appendFilePath: true # to append file path to Edit link
 ---
 <div style="text-align: justify"> 
 
@@ -47,16 +35,16 @@ Así fue que esta serie de Aprender a programar en C nació, principalmente para
 Tan solo necesitas ingresar los siguientes comandos a tu terminal de preferencia:
 
 **Ubuntu**
-```shell
+```bash
 $ sudo apt-get install build-essential
 ```
 
 **RPM Distros (Fedora, RedHat, CentOS)**
-```shell
+```bash
 $ sudo yum groupinstall development-tools
 ```
 Para verificar que el compilador de C esté instalado y su versión:
-```shell
+```bash
 $ gcc --version
 ```
 
@@ -65,11 +53,11 @@ Necesitas instalar [Cygwin](https://www.cygwin.com/) o [MinGW](http://mingw-w64.
 
 ### Mac Os
 Primero se necesita instalar XCode de Apple. Se puede hacer vía línea de comandos:
-```shell
+```bash
 $ xcode-select --install
 ```
 Después, ingresa a *XCode -> Preferencias -> Descargas* e instala las herramientas de línea de comando (Command Line Tools). Por último, verifica que el compilador de C esté instalado y su versión:
-```shell
+```bash
 $ gcc --version
 ```
 
@@ -81,10 +69,11 @@ $ gcc --version
 
 ## Tu primer código
 Como es costumbre al aprender a programar, el primer código que veremos imprimirá en pantalla **"Hola, mundo"**. No te preocupes si no entiendes la sintaxis, sólo es un ejemplo para que te observes cómo se ve un código en C.
-```c {linenos=table,hl_lines=[1],linenostart=1}
+
+```c {linenos=inline}
 #include <stdio.h>
 
-int main() 
+int main()
 {
     printf("Hola, mundo");
     return 0;
