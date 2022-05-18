@@ -11,7 +11,7 @@ comments: true
 description: ""
 canonicalURL: "https://canonical.url/to/page"
 disableShare: false
-disableHLJS: true
+disableHLJS: false
 hideSummary: false
 #searchHidden: false
 ShowReadingTime: true
