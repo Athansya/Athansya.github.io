@@ -5,7 +5,7 @@ tags: ["tools", "nix", "wsl"]
 author: "@atorizv"
 showToc: true
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: true
 description: ""
